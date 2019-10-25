@@ -61,3 +61,82 @@ class TypeWriter {
         setTimeout(() => this.type(), typeSpeed);
     }
 }
+
+window.sr = ScrollReveal(); 
+
+sr.reveal('.navbar', {
+    duration: 2000, 
+    origin: 'bottom'
+});
+sr.reveal('.header', {
+    duration: 2000, 
+    delay: 250
+});
+
+sr.reveal('.home-intro', {
+    duration: 3000, 
+    origin: 'left',
+    distance: '150px'
+});
+sr.reveal('.home-picture', {
+    duration: 3000, 
+    origin: 'top',
+    distance: '250px'
+});
+
+sr.reveal('.about-picture', {
+    duration: 2000, 
+    origin: 'left', 
+    distance: '300px', 
+    viewFactor: 0.3
+});
+sr.reveal('.about-description', {
+    duration: 2000, 
+    origin: 'bottom', 
+    distance: '150px', 
+    viewFactor: 0.4
+});
+
+sr.reveal('.row .col-1', {
+    duration: 2000, 
+    delay: 500, 
+    viewFactor: 0.1
+});
+sr.reveal('.location', {
+    duration: 3000, 
+    viewFactor: 0.1
+});
+sr.reveal('.content', {
+    duration: 3000, 
+    delay: 1000, 
+    viewFactor: 0.1
+});
+sr.reveal('.dates', {
+    duration: 3000, 
+    delay: 500, 
+    origin: 'right',
+    viewFactor: 0.1
+});
+sr.reveal('.language', {
+    duration: 3000, 
+    origin: 'left', 
+    viewFactor: 0.1
+});
+sr.reveal('.web', {
+    duration: 3000,
+    delay: 500, 
+    origin: 'bottom',
+    viewFactor: 0.1
+});
+sr.reveal('.technology', {
+    duration: 3000, 
+    delay: 1000, 
+    origin: 'right', 
+    viewFactor: 0.1
+});
+
+sr.reveal('.card', {
+    duration: 3000, 
+    origin: 'right',
+    viewFactor: 0.1
+});

@@ -11,6 +11,9 @@
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
 
+        <!-- Scroll Reveal Library -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
         <link rel="stylesheet" href="css/styles.css">
 
         <title>PETER KO</title>
@@ -59,7 +62,7 @@
 
         <section id="about">
             <div class="container-fluid mx-0 px-4 px-md-5 ">
-                <p class="lead font-weight-bold text-uppercase">Hello, world!</p>
+                <p class="header lead font-weight-bold text-uppercase">Hello, world!</p>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="about-picture">
@@ -67,8 +70,10 @@
                         </div>
                     </div>
                     <div class="col-md-6 align-self-center pr-4">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, unde ad molestiae sit aperiam exercitationem aliquam doloremque necessitatibus obcaecati consequatur!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex saepe voluptatibus dicta accusantium soluta suscipit aperiam, excepturi assumenda, enim autem quaerat quod eius eos sed velit deleniti modi. Consectetur!</p>
+                        <div class="about-description">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, unde ad molestiae sit aperiam exercitationem aliquam doloremque necessitatibus obcaecati consequatur!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex saepe voluptatibus dicta accusantium soluta suscipit aperiam, excepturi assumenda, enim autem quaerat quod eius eos sed velit deleniti modi. Consectetur!</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -76,8 +81,8 @@
 
         <section id="resume">
             <div class="container-fluid mx-0 px-4 px-md-5 ">
-                <h1>resume</h1>
                 <div class="education">
+                    <h1 class="header">resume</h1>
                     <p class="resume-header lead w-100 border-bottom">Education</p> 
                     <div class="row">
                         <div class="col-1">
@@ -87,18 +92,22 @@
                         </div>
                         <div class="col">
                             <div class="d-flex flex-column">
-                                <span class="lead">University of British Columbia</span>
-                                <span class="lead">Computer Science and Statistics, BSc.</span>
+                                <span class="location">
+                                    <span class="lead">University of British Columbia</span>
+                                    <span class="lead">Computer Science and Statistics, BSc.</span>
+                                </span>
                                 <br>
-                                <p class="list-header lead mb-0">Relevant Coursework</p>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Models of Computation</li>
-                                    <li class="list-group-item">Software Construction</li>
-                                    <li class="list-group-item">Introduction to Computer Systems</li>
-                                    <li class="list-group-item">Basic Algorithms and Data Structures</li>
-                                    <li class="list-group-item">Introduction to Relational Databases</li>
-                                    <li class="list-group-item">Introduction to Software Engineering</li>
-                                </ul>
+                                <span class="content">
+                                    <p class="list-header lead mb-0">Relevant Coursework</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Models of Computation</li>
+                                        <li class="list-group-item">Software Construction</li>
+                                        <li class="list-group-item">Introduction to Computer Systems</li>
+                                        <li class="list-group-item">Basic Algorithms and Data Structures</li>
+                                        <li class="list-group-item">Introduction to Relational Databases</li>
+                                        <li class="list-group-item">Introduction to Software Engineering</li>
+                                    </ul>
+                                </span>
                             </div>
                         </div>
                         <div class="col-3 dates">
@@ -120,14 +129,18 @@
                         </div>
                         <div class="col">
                             <div class="d-flex flex-column">
-                                <span class="lead">Software Development Engineer in Test</span>
-                                <span class="lead">Global Relay</span>
+                                <span class="location">
+                                    <span class="lead">Software Development Engineer in Test</span>
+                                    <span class="lead">Global Relay</span>
+                                </span>
                                 <br>
-                                <dl>
-                                    <dd>Automated test cases for server-side</dd>
-                                    <dd>Developed and maintained automation codes to support development of automated frameworks and tests</dd>
-                                    <dd>Documented automation framework, tools, infrastructure and manual for the team</dd>
-                                </dl>
+                                <span class="content">
+                                    <dl>
+                                        <dd>Automated test cases for server-side</dd>
+                                        <dd>Developed and maintained automation codes to support development of automated frameworks and tests</dd>
+                                        <dd>Documented automation framework, tools, infrastructure and manual for the team</dd>
+                                    </dl>
+                                </span>
                                 <div class="skills">
                                     <span class="badge badge-pill badge-secondary">Java</span>
                                     <span class="badge badge-pill badge-secondary">Apache Hadoop</span>
@@ -174,7 +187,7 @@
 
         <section id="project">
             <div class="container-fluid mx-0 px-4 px-md-5">
-                <h1>project</h1>
+                <h1 class="header">project</h1>
                 <div class="card-deck">
                     <div class="card mb-4">
                         <img class="card-img-top" src="img/coffee_today.jpg">
