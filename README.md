@@ -1,3 +1,3 @@
 ## Peter Ko's Website
 
-https://imko.github.io/peterko/
+https://imko.github.io/PeterKo/
